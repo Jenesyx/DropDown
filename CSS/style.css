@@ -1,0 +1,98 @@
+@import "../CSS/reset.css";
+
+body {
+    direction: ltr;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.clear {
+    clear: both;
+}
+
+#nav {
+    background: #313131;
+}
+
+#nav ul {
+    padding: 0;
+    margin: 0;
+}
+
+#nav .right ul li {
+    display: inline-block;
+}
+
+#nav .right ul li  a {
+    text-decoration: none;
+    color: #fff;
+    padding: 15px 7px;
+    display: inline-block;
+}
+
+#nav .right a:hover {
+    background: rgb(66, 66, 66);
+}
+
+#nav .right {
+    margin-right: 250px;
+    float: right;
+}
+
+#nav .right .fa-arrow-down {
+    font-size: 12px;
+    margin-right: 5px;
+    margin-bottom: 1px;
+}
+
+#nav .right .dropdown {
+    position: absolute;
+    width: 95px;
+    display: none;
+}
+
+#nav .right .dropdown li {
+    display: block;
+}
+
+#nav .right .dropdown a {
+    background: rgb(63, 63, 63);
+    width: 100%; 
+}
+
+#nav .right .dropdown a:hover {
+    background: #000;
+}
+
+#nav .right .has-dropdown:hover .dropdown {
+    display: block;
+}
+
+#nav .left {
+    float: left;
+    margin-left: 250px;
+}
+
+#nav .left .fa-arrow-down {
+    font-size: 12px;
+    margin-right: 5px;
+    margin-bottom: 1px;
+}
+
+#nav .left a {
+    text-decoration: none;
+    color: #fff;
+    padding: 15px 7px;
+    display: inline-block;
+}
+
+#nav .left a:hover {
+    background: rgb(66, 66, 66);
+}
+
+#nav .left .user {
+
+}
